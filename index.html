@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test LiveHTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row header">
+                <img src="img/logo.jpg" alt="logo" >
+                <div class="header-content">
+                    <div class="row header-menu">
+                        <nav class="nav-menu">
+                           <a href="#" class="nav-item"> Каталог инструментов</a>
+                           <a href="#" class="nav-item">Все для сада</a>
+                           <a href="#" class="nav-item">Ручной интрумент</a>
+                           <a href="#" class="nav-item">Электрика</a>
+                           <a href="#" class="nav-item">Доставка</a>
+                           <a href="#" class="nav-item">Оплата</a>
+                           <a href="#" class="nav-item">О нас</a>
+                        </nav>
+                        <div class="login">
+                            <a href="#" class="log">Вход</a> | 
+                            <a href="#" class="registr">Регистрация</a>
+                        </div>
+                    </div>
+                    <div class="header-menu__mob">
+                        <a href="javascript:void(0);" class="icon" id="btn-menu">
+                            МЕНЮ
+                          </a>
+                        <div class="mob-links" id="mob-links">
+                          <nav class="nav-menu">
+                            <a href="#" class="nav-item">Каталог инструментов</a>
+                            <a href="#" class="nav-item">Все для сада</a>
+                            <a href="#" class="nav-item">Ручной интрумент</a>
+                            <a href="#" class="nav-item">Электрика</a>
+                            <a href="#" class="nav-item">Доставка</a>
+                            <a href="#" class="nav-item">Оплата</a>
+                            <a href="#" class="nav-item">О нас</a>
+                         </nav>
+                         <div class="login">
+                             <a href="#" class="log">Вход</a> | 
+                             <a href="#" class="registr">Регистрация</a>
+                         </div>  
+                        </div>  
+                        
+                    </div>
+                    <div class="row header-info">
+                        <div class="banner-place"></div>
+                        <div class="row products">
+                            <ul class="products-info">
+                                <li>3 шт. / 17 250 р.</li>
+                                <li>Избранное (7)</li>
+                                <li>К сравнению (5)</li>
+                            </ul>
+                            <div class="row products-img">
+                                <img src="img/tool1.jpg" alt="tool" class="tool">
+                                <img src="img/tool2.jpg" alt="tool" class="tool">
+                                <img src="img/tool3.jpg" alt="tool" class="tool">
+                            </div>
+                        </div>
+                        <div class="magaz-info">
+                            <p class="magaz-time row">
+                                <b>Время работы</b>
+                                <span>10:00 — 19:00</span></p>
+                            <p class="magaz-tel">8 495 721-25-25</p>
+                            <p class="magaz-city row">
+                                <span>Москва</span>
+                                <a href="" class="change">сменить</a>
+                            </p>    
+     
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row catalog">
+                <div class="search">
+                    <button class="search-btn" id="show">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21.054 18.5604L16.5192 14.0256C17.2262 12.8653 17.5991 11.5323 17.5968 10.1736C17.5968 6.0732 14.0436 2.5212 9.94322 2.5212C8.96835 2.52104 8.00299 2.71294 7.1023 3.08594C6.2016 3.45893 5.38321 4.00572 4.69387 4.69506C4.00453 5.38439 3.45775 6.20278 3.08476 7.10348C2.71176 8.00418 2.51986 8.96953 2.52002 9.9444C2.52002 14.0436 6.07322 17.5968 10.1724 17.5968C11.4864 17.598 12.7768 17.2483 13.9104 16.584L18.4692 21.1452C18.6836 21.359 18.974 21.4791 19.2768 21.4791C19.5796 21.4791 19.87 21.359 20.0844 21.1452L21.216 20.0136C21.6612 19.5684 21.4992 19.0056 21.054 18.5604ZM4.80482 9.9444C4.80466 9.26952 4.93745 8.60121 5.19561 7.97765C5.45377 7.3541 5.83224 6.7875 6.3094 6.31023C6.78656 5.83296 7.35306 5.45436 7.97656 5.19605C8.60006 4.93775 9.26833 4.8048 9.94322 4.8048C12.7824 4.8048 15.312 7.3332 15.312 10.1736C15.3117 11.5366 14.7701 12.8437 13.8063 13.8075C12.8425 14.7713 11.5354 15.3129 10.1724 15.3132C7.33322 15.312 4.80482 12.7824 4.80482 9.9444Z" fill="black"/>
+                            </svg>
+                    </button>
+                    <form action="#" method="get" id="form" class="search-form">
+                        <button id="hider">&#10006;</button>
+                        <input name="search" type="search">
+                        <button class="btn-search" type="submit">Поиск</button>
+                      </form>
+                </div>
+                <nav class="catalog-menu">
+                  <a href="" class="catalog-menu__item">Перфораторы</a>
+                  <a href="" class="catalog-menu__item">Дрели</a>
+                  <a href="" class="catalog-menu__item">Шлифмашины</a>
+                  <a href="" class="catalog-menu__item">Пистолеты</a>
+                  <a href="" class="catalog-menu__item">Электропилы</a>
+                  <a href="" class="catalog-menu__item">Наборы инструментов</a>
+                  <a href="" class="catalog-menu__item">Акксесуары</a>
+
+                </nav>
+                <a href="#" class="sale">Распродажа</a>
+            </div>
+        </div>
+    </header>
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
